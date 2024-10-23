@@ -1,0 +1,68 @@
+# Общие игнорируемые файлы для проектов .NET
+# Конфигурационные файлы Visual Studio
+.vs/
+*.user
+*.suo
+
+# Папки сборки
+bin/
+obj/
+
+# Лог-файлы
+*.log
+
+# Папки NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Конфигурационные файлы
+appsettings.Development.json
+appsettings.*.json
+*.config
+
+# Папки сборки Visual Studio Code
+.vscode/
+
+# Кэш файлов расширений JetBrains Rider
+.idea/
+
+# Файлы и папки тестирования
+TestResults/
+*.Tests.dll
+*.Tests.pdb
+
+# Средства сборки
+*.vspscc
+*.vssscc
+
+# Игнорировать файловую базу данных
+*.db
+
+# MacOS специфические файлы
+.DS_Store
+
+# Игнорировать публикацию и запуск контейнеров Docker
+docker-compose.override.yml
+docker-compose.*
+
+# Сертификаты HTTPS для разработки
+*.pfx
+*.p12
+
+# Дополнительные элементы для ASP.NET Core
+!wwwroot/
+wwwroot/
+node_modules/
+dist/
+
+# Файлы спецификации Swashbuckle (Swagger)
+*.json
+*.yaml
+
+# Игнорировать пользовательские данные и секреты
+secrets.json
+.env
+.env.*
+
